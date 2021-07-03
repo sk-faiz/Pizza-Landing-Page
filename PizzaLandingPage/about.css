@@ -1,147 +1,146 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: fit-content;
-    height: 1000px;
+html,
+body {
+  height: fit-content;
+  height: 1000px;
 }
-
 
 .header {
-    background-color: #AA2A2D;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    font-size: 30px
+  background-color: #aa2a2d;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 30px;
+  color: white;
 }
 
 .imgP {
-    position: relative;
-    margin: 0;
-    left: 75%;
-    height: 600px;
-    padding: 0;
-    float: left;
+  position: relative;
+  margin: 0;
+  left: 75%;
+  height: 600px;
+  padding: 0;
+  float: left;
 }
 .abtCon {
-    font-size: 50px;
-    font-family: 'Rubik', sans-serif;
-    color: #fff;
-    font-weight: bolder;
-    text-align: center;
+  font-size: 50px;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .text {
-   text-align: center;
-   font-family: 'Rubik', sans-serif;
-   color: #fff;
-   font-size: 30px;
-   padding-top: 20px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  font-size: 30px;
+  padding-top: 20px;
 }
-
-
 
 .content {
-    margin-right: 800px;
-    margin-top: 200px;
-}  
+  margin-right: 800px;
+  margin-top: 200px;
+}
 
 .footer {
-    background-color: #F54748;
-    height: auto;
-    width: 100vw;
-    color: #fff;
-    margin-top: 2%;
+  background-color: #f54748;
+  height: auto;
+  width: 100vw;
+  color: #fff;
+  margin-top: 2%;
 }
-  
+
 .footer p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
 }
-  
+
 .footer h3 {
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 3rem;
-    font-family: 'Beth Ellen', cursive;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+  font-family: "Beth Ellen", cursive;
 }
-  
+
 .footer-padding {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
-  
+
 .socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
 }
-  
+
 .socials li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
-  
+
 .socials a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
-  
+
 .socials a i {
-    transition: color .4s ease;
+  transition: color 0.4s ease;
 }
-  
+
 .socials a:hover i {
-    color: #fff;
+  color: #fff;
 }
-  
+
 .footer-bottom {
-    background-color: #AA2B2D;
-    width: 100vw;
-    padding:  15px 0;
-    text-align: center;
+  background-color: #aa2b2d;
+  width: 100vw;
+  padding: 15px 0;
+  text-align: center;
 }
-  
+
 .footer-bottom p {
-    font-size: 14px;
-    word-spacing: 2px;
+  font-size: 14px;
+  word-spacing: 2px;
 }
-  
+
 .footer-bottom span {
-    color: black;
-    opacity: .5;
+  color: black;
+  opacity: 0.5;
 }
 
 .btn {
-    background-color: #AA2B2D;
-    cursor: pointer;
-    font-size: 15px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    margin-top: 5%;
-    border: none;
-  }
-  
+  background-color: #aa2b2d;
+  cursor: pointer;
+  font-size: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-top: 5%;
+  border: none;
+}
+
 .btn a {
-    text-decoration: none;
-    background-color: none;
-    color: #fff;
-    font-family: 'Rubik', sans-serif;
-    word-spacing: 5px;
-    letter-spacing: 2px;
-    font-size: 20px;
-  }
-  
+  text-decoration: none;
+  background-color: none;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
 .btn:hover {
-    background-color: #F54748;
-  }
+  background-color: #f54748;
+}
